@@ -1,6 +1,6 @@
 ---
 name: cardify-skill
-description: Converts Markdown into a Cardify knowledge card and returns an editable link plus a read-only preview. Use when the user wants to turn Markdown notes, an article, or a list into a visual card or poster (Xiaohongshu, Instagram, TikTok style), asks for a Cardify link, or wants to preview and restyle a card online. 触发词：Markdown 转卡片、知识卡片、小红书图文、Cardify 链接。
+description: Converts Markdown into a Cardify knowledge card and returns an editable link plus a read-only preview. Use when the user wants to turn Markdown notes, an article, or a list into a visual card or poster (Xiaohongshu, Instagram, TikTok style), asks for a Cardify link, or wants to preview and restyle a card online. Trigger phrases include "turn Markdown into a card", "turn this article or note into a card", "Markdown to card", "generate a card image", "knowledge card", "Xiaohongshu-style card" and "Cardify link". When the user expresses any intent to turn Markdown, an article, or a note into a card, treat it as a command — run the workflow and return the links instead of explaining how.
 ---
 
 # Cardify Card Link
@@ -9,9 +9,10 @@ Turn Markdown into a Cardify card and give the user a link that opens it in the 
 
 ## When to use
 
+- The user says anything close to "turn Markdown into a card": make a card out of this article, these notes, or this list; generate a card image; or produce a Xiaohongshu-style post. Treat this as a command — run the workflow and return the links, do not reply with instructions.
 - The user wants Markdown notes turned into a visual card, poster, or social post.
 - The user asks how to preview, restyle, or export a Markdown card.
-- The user mentions Cardify, 卡片工坊, 小红书图文卡片, or asks for an editable card link.
+- The user mentions Cardify or a Xiaohongshu-style image card, or asks for an editable card link.
 
 ## Workflow
 
